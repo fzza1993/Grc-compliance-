@@ -1,0 +1,9 @@
+
+Compliance Mapping (NCA ECC)
+| Control ID | Control Name | Domain | Implementation Status | Evidence / Artifact Reference | Assessor Notes |
+|---|---|---|---|---|---|
+| ECC-1 | Access Control Policy | Identity and Access Management | Fully Implemented | POL-IAM-01 (Access Policy), RBAC Matrix | Annual review completed, enforced via Azure AD |
+| ECC-2 | Encryption Standards | Data Protection | Partially Implemented | SOP-CRY-01 (Key Management), TLS 1.3 Config | AES-256 at rest active; legacy database migration pending |
+| ECC-3 | Network Security | Network Security | Fully Implemented | DOC-NET-01 (Network Topology), WAF Logs | Cloudflare WAF active, DDoS protection verified |
+| ECC-4 | Security Awareness | Human Resources | Fully Implemented | LOG-TRN-2023 (Training Records), Phishing Simulation | 95% completion rate across all employees |
+
